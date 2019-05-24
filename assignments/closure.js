@@ -1,6 +1,13 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+const endLabel = 'Ball Z';
+function createLabel(){
+  const startLabel = 'Dragon';
+  alert(`${startLabel} ${endLabel}`)
+}
+
+console.log(createLabel());
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
